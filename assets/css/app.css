@@ -689,13 +689,14 @@ fieldset {
 
 @media only screen and (min-width: 48rem) {
     .l-wrapper {
-        max-width: 1200px
+        max-width: 960px
     }
 }
 
 @media only screen and (min-width: 80rem) {
     .l-wrapper {
-        padding: 0
+        padding: 0;
+        max-width: 1024px;
     }
 }
 
@@ -720,6 +721,14 @@ fieldset {
         max-width: 960px
     }
 }
+
+@media only screen and (min-width: 80rem) {
+    .l-wrapper.in-post {
+        padding: 0;
+        max-width: 1024px;
+    }
+}
+
 
 @media only screen and (min-width: 48rem) {
     .l-wrapper.in-comments {

@@ -1117,7 +1117,7 @@
         position: absolute;
         top: 0;
         left: auto;
-        right: -75px;
+        right: -55px;
         width: 40px;
         height: auto;
         background-color: transparent;
@@ -1128,7 +1128,7 @@
 @media only screen and (min-width: 80rem) {
     .m-share {
         width: 50px;
-        right: -175px
+        right: -150px
     }
 }
 
