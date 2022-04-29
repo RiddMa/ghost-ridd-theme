@@ -1463,9 +1463,13 @@
 }
 
 .gt-container .gt-svg {
-    width: 0.875em;
-    height: 0.875em;
-    vertical-align: text-top;
+    width: 0.875em !important;
+    height: 0.875em !important;
+    vertical-align: text-top !important;
+}
+
+.gt-meta{
+    z-index: 0 !important;
 }
 
 .m-recommended {
